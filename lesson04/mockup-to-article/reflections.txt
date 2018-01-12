@@ -7,3 +7,24 @@ You've learned a lot about web development so far. I want you to take a moment t
 ---
 
 Your response goes here!
+
+  * What new skills have you learned?
+
+  I have varying degree of knowledge of using HTML. This was a good re-fresher on the HTML basics.
+
+  * What has been easy?
+  
+  Navigating through the course materials and receiving assistance from mentors and fellow students.
+
+  * What has been difficult?
+
+    Ensuring I read all the instructions. Like most people, my eagerness to do task I gloss over the instructions and details. But, I'm getting better that paying attention to the details.
+
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+    I always try to use the Read-Search-Ask methodology.
+
+    1. Read the documentation or error
+    2. Search Google
+    3. Ask for help
+
