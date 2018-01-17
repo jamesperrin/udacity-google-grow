@@ -12,7 +12,7 @@ This repository is to track my activies for the [Udacity-Google GROW program](ht
 | Beginner Track |  4. Project: Mockup to Article            |  [X]   | 1 hr    | 01/11/2018  | 01/11/2018 |
 | Beginner Track |  5. CSS,Syntax                            |  [X]   | 1 hr    | 01/12/2018  | 01/12/2018 |
 | Beginner Track |  6. CSS,Syntax Problem Set                |  [X]   | 2 hrs   | 01/16/2018  | 01/16/2018 |
-| Beginner Track |  7. How,to Write Code Faster              |  [ ]   | 1 hr    | 01/17/2018  | 01/17/2018 |
+| Beginner Track |  7. How,to Write Code Faster              |  [X]   | 1 hr    | 01/17/2018  | 01/17/2018 |
 | Beginner Track |  8. Project: Animal Trading Cards         |  [ ]   | 20 min  | 01/18/2018  | 01/18/2018 |
 | Beginner Track |  9. Rate,HTML and CSS intro               |  [ ]   | 1 hr    | 01/18/2018  | 01/18/2018 |
 | Beginner Track | 10. What,is JavaScript?                   |  [ ]   | 2 hr    | 01/22/2018  | 01/24/2018 |
