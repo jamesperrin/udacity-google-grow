@@ -29,3 +29,9 @@
   Use your variables and string concatenation to create your own awesome message and store it in an awesomeMessage variable. Finally, print your awesome message to the JavaScript console.
  */
 // Add your code here
+var firstName = 'James';
+var interest = 'snooker';
+var hobby = 'read';
+
+var awesomeMessage = "Hi, my name is " + firstName + ". I love " + interest + ". In my spare time, I like to " + hobby + ".";
+console.log(awesomeMessage);
