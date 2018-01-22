@@ -13,5 +13,6 @@
 
   Hint: You will need to use special characters to produce the following output.
  */
-var joke = /* write your joke here */
-    console.log(joke);
+var joke = "Why couldn\'t the shoes go out and play?\nThey were all \"tied\" up!";
+
+console.log(joke);
