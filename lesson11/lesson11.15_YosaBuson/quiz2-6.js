@@ -16,5 +16,5 @@
   For a refresher, feel free to review the previous Escaping Strings lesson in this course.
  */
 
-var haiku = /* concatenate the strings here */
-    console.log(haiku);
+var haiku = "Blowing from the west" + "\nFallen leaves gather" + "\nIn the east.";
+console.log(haiku);
