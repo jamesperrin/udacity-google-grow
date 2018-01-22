@@ -1,39 +1,62 @@
 /* add your CSS here */
 
-img {
-    width: 300px;
-    height: auto;
-}
+.main-container
+/* body>div:nth-of-type(1)  */
 
-img+div {
-    border: 1px solid #D3D3D3;
-    width: 290px;
-    padding: 5px;
-    margin-top: 10px
-}
-
-ul {
-    text-align: left;
-    padding: 0;
-}
-
-ul li {
-    font-style: italic;
-    list-style: none;
-}
-
-ul li span {
-    font-style: normal;
-    font-weight: bold;
-}
-
-div p:first-child {
-    font-style: italic;
-}
-
-body>div:nth-of-type(1) {
+{
     border: 1px solid #D3D3D3;
     width: 300px;
     padding: 10px;
     box-shadow: 5px 5px 0px 0px rgb(228, 228, 228);
+}
+
+.animal-image
+/* img  */
+
+{
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+}
+
+.animal-information
+/* img+div */
+
+{
+    border: 1px solid #D3D3D3;
+    width: 290px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5% 0;
+}
+
+.animal-fun-fact
+/* div p:first-child */
+
+{
+    font-style: italic;
+}
+
+.animal-facts
+/* ul */
+
+{
+    text-align: left;
+    padding: 0;
+}
+
+.animal-facts-item
+/* ul li  */
+
+{
+    font-style: italic;
+    list-style: none;
+}
+
+.animal-facts-label
+/* ul li span  */
+
+{
+    font-style: normal;
+    font-weight: bold;
 }
