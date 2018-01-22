@@ -10,6 +10,8 @@
  */
 
 var celsius = 12;
-var fahrenheit = /* convert celsius to fahrenheit here */
 
-    console.log( /* print out result here */ )
+/* convert celsius to fahrenheit here */
+var fahrenheit = celsius * 1.8 + 32;
+
+console.log(fahrenheit);
