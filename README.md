@@ -13,10 +13,10 @@ This repository is to track my activies for the [Udacity-Google GROW program](ht
 | Beginner Track |  5. CSS,Syntax                            |  [X]   | 1 hr    | 01/12/2018  | 01/12/2018 |
 | Beginner Track |  6. CSS,Syntax Problem Set                |  [X]   | 2 hrs   | 01/16/2018  | 01/16/2018 |
 | Beginner Track |  7. How,to Write Code Faster              |  [X]   | 1 hr    | 01/17/2018  | 01/17/2018 |
-| Beginner Track |  8. Project: Animal Trading Cards         |  [ ]   | 20 min  | 01/18/2018  | 01/18/2018 |
-| Beginner Track |  9. Rate,HTML and CSS intro               |  [ ]   | 1 hr    | 01/18/2018  | 01/18/2018 |
-| Beginner Track | 10. What,is JavaScript?                   |  [ ]   | 2 hr    | 01/22/2018  | 01/24/2018 |
-| Beginner Track | 11. Data,Types & Variables                |  [ ]   | 2 hr    | 01/24/2018  | 01/29/2018 |
+| Beginner Track |  8. Project: Animal Trading Cards         |  [X]   | 20 min  | 01/18/2018  | 01/18/2018 |
+| Beginner Track |  9. Rate,HTML and CSS intro               |  [X]   | 2 mins  | 01/18/2018  | 01/18/2018 |
+| Beginner Track | 10. What,is JavaScript?                   |  [X]   | 2 hr    | 01/22/2018  | 01/24/2018 |
+| Beginner Track | 11. Data,Types & Variables                |  [X]   | 2 hr    | 01/24/2018  | 01/29/2018 |
 | Beginner Track | 12. Conditionals                          |  [ ]   | 2 hr    | 01/29/2018  | 02/01/2018 |
 | Beginner Track | 13. Loops                                 |  [ ]   | 2 hr    | 02/01/2018  | 02/07/2018 |
 | Beginner Track | 14. Functions                             |  [ ]   | 2 hr    | 02/07/2018  | 02/13/2018 |
