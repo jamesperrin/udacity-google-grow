@@ -8,3 +8,4 @@
  */
 
 // your code goes here
+var fullName = 'James Perrin';
