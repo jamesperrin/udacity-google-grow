@@ -26,6 +26,10 @@ And we know that each suspect was located in a specific room at the time of the 
   * Mrs. Sparr was located in the billiards room.
   * Mr. Kalehoff was located in the ballroom.
 
+// four rooms: the ballroom, gallery, billiards room, dining room
+// four suspects: Mr. Kalehoff, Ms. Van Cleve, Mrs. Sparr, Mr. Parkes
+// four weapons: poison, trophy, pool stick, knife 
+
 To help solve this mystery, write a combination of conditional statements that:
 
   1. sets the value of weapon based on the room and
@@ -51,25 +55,40 @@ https://en.wikipedia.org/wiki/Whodunit
 
 /*
  * Programming Quiz: Murder Mystery (3-4)
- */
+//  */
+// To help solve this mystery, write a combination of conditional statements that:
+
+// 1. sets the value of weapon based on the room 
+// AND
+// 2. sets the value of solved to true if the value of room matches the suspect 's room
+var rooms = ['ballroom', 'gallery', 'billiards room', 'dining room'];
+var suspects = ['Mr. Kalehoff', 'Ms. Van Cleve', 'Mrs. Sparr', 'Mr. Parkes'];
+var weapons = ['poison', 'trophy', 'pool stick', 'knife'];
 
 // change the value of `room` and `suspect` to test your code
+
 var room = "dining room";
 var suspect = "Mr. Parkes";
-
 var weapon = "";
 var solved = false;
 
-if ( /* your conditional goes here */ ) {
-
-} else if ( /* your conditional goes here */ ) {
-
-} else if ( /* your conditional goes here */ ) {
-
+if (room === 'ballroom' && suspect === 'Mr. Kalehoff') {
+    weapon = 'poison';
+    solved = true;
+} else if (room === 'gallery' && suspect === 'Ms. Van Cleve') {
+    weapon = 'trophy';
+    solved = true;
+} else if (room === 'billiards room' && suspect === 'Mrs. Sparr') {
+    weapon = 'pool stick';
+    solved = true;
+} else if (room === 'dining room' && suspect === 'Mr. Parkes') {
+    weapon = 'knife';
+    solved = true;
 } else {
-
+    solved = false;
 }
 
 if (solved) {
-    console.log( /* your message goes here*/ );
+    //console.log('%s did it in the %s with the %s!', suspect, room, weapon);
+    console.log(suspect + ' did it in the ' + room + ' with the ' + weapon + '!');
 }
