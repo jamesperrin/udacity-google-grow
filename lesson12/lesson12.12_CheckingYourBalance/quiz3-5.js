@@ -32,8 +32,44 @@ If checkBalance equals true and isActive equals false, then "Your account is no 
  */
 
 // change the values of `balance`, `checkBalance`, and `isActive` to test your code
-var balance = 325.00;
+var balance = -1;
 var checkBalance = true;
-var isActive = false;
+var isActive = true;
 
 // your code goes here
+
+// VERSION 1
+if (!checkBalance) {
+    console.log("Thank you. Have a nice day!");
+} else {
+    if (!isActive) {
+        console.log("Your account is no longer active.");
+    } else {
+        if (balance > 0) {
+            console.log("Your balance is $" + balance.toFixed(2) + ".");
+        } else if (balance === 0) {
+            console.log("Your account is empty.");
+        } else {
+            console.log("Your balance is negative. Please contact bank.");
+        }
+    }
+}
+
+// VERSION 2
+if (checkBalance) {
+    if (isActive) {
+        if (balance > 0) {
+            console.log("Your balance is $" + balance.toFixed(2) + ".");
+        } else {
+            if (balance === 0) {
+                console.log("Your account is empty.");
+            } else {
+                console.log("Your balance is negative. Please contact bank.");
+            }
+        }
+    } else {
+        console.log("Your account is no longer active.");
+    }
+} else {
+    console.log("Thank you. Have a nice day!");
+}
