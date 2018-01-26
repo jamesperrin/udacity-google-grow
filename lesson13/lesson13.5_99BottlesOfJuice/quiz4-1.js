@@ -29,9 +29,11 @@ Your text editor may try to autocorrect your ellipses ... to the ellipses charac
 
 var num = 99;
 
-while ( /* your stop condition goes here */ ) {
+while (num > 0) {
     // check value of num
     // print lyrics using num
     // don't forget to check pluralization on the last line!
+    console.log(`${num} bottle${num === 1 ? '': 's'} of juice on the wall! ${num} bottle${num === 1 ? '': 's'} of juice! Take one down, pass it around... ${num - 1} bottle${(num - 1) === 1 ? '': 's'} of juice on the wall!`);
     // decrement num
+    num -= 1;
 }
