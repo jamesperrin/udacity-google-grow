@@ -1,4 +1,6 @@
-# Udacity-Google GROW program
+# Udacity and Google GROW scholarship program
+
+I was honored in being accepted into the Udacity and Google scholarship program that provides world-class learning opportunities to 50,000 people across the United States. The scholarship program is part of the Grow with Google initiative. I was bless with the Front-End Web Developer learning track.
 
 This repository is to track my activies for the [Udacity-Google GROW program](https://www.udacity.com/grow-with-google) Phase-1. 
 
@@ -17,7 +19,7 @@ This repository is to track my activies for the [Udacity-Google GROW program](ht
 | Beginner Track |  9. Rate,HTML and CSS intro               |  [X]   | 2 mins  | 01/18/2018  | 01/18/2018 |
 | Beginner Track | 10. What,is JavaScript?                   |  [X]   | 2 hr    | 01/22/2018  | 01/24/2018 |
 | Beginner Track | 11. Data,Types & Variables                |  [X]   | 2 hr    | 01/24/2018  | 01/29/2018 |
-| Beginner Track | 12. Conditionals                          |  [ ]   | 2 hr    | 01/29/2018  | 02/01/2018 |
+| Beginner Track | 12. Conditionals                          |  [X]   | 2 hr    | 01/29/2018  | 02/01/2018 |
 | Beginner Track | 13. Loops                                 |  [ ]   | 2 hr    | 02/01/2018  | 02/07/2018 |
 | Beginner Track | 14. Functions                             |  [ ]   | 2 hr    | 02/07/2018  | 02/13/2018 |
 | Beginner Track | 15. Arrays                                |  [ ]   | 2 hr    | 02/13/2018  | 02/16/2018 |
