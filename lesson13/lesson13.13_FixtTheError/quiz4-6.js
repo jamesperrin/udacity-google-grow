@@ -14,6 +14,6 @@ for (var k = 0 k < 200 k++) {
  */
 
 // fix the for loop
-for (var k = 0 k < 200 k++) {
+for (var k = 0; k < 200; k++) {
     console.log(k);
 }
