@@ -42,6 +42,26 @@ Use the eatsPlants and eatsAnimals variables to test your code.
 var eatsPlants = false;
 var eatsAnimals = true;
 
-var category = /* your code goes here */
 
-    console.log(category);
+//var category = /* your code goes here */
+
+function FoodChain(eatsAnimals, eatsPlants) {
+    return eatsAnimals && eatsPlants ?
+        "omnivore" : eatsPlants ?
+        "herbivore" : eatsAnimals ?
+        "carnivore" : undefined;
+}
+
+//console.log(category);
+
+// "omnivore"
+console.log(FoodChain(eatsAnimals = true, eatsPlants = true));
+
+// "herbivore"
+console.log(FoodChain(eatsAnimals = false, eatsPlants = true));
+
+// "carnivore"
+console.log(FoodChain(eatsAnimals = true, eatsPlants = false));
+
+// undefined
+console.log(FoodChain(eatsAnimals = false, eatsPlants = false));
