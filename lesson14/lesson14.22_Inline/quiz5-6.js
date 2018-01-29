@@ -21,3 +21,25 @@ function emotions(myString, myFunc) {
 // your code goes here
 // call the emotions function here and pass in an
 // inline function expression
+
+// ES5 inline fuction
+// emotions("happy", function (numOfHas) {
+//   let has = "";
+
+//   for (let i = 1; i <= numOfHas; i++) {
+//     has += "ha";
+//   }
+
+//   return `${has}!`;
+// });
+
+// ES6 inline function
+emotions("happy", (numOfHas) => {
+  let has = "";
+
+  for (let i = 1; i <= numOfHas; i++) {
+    has += "ha";
+  }
+
+  return `${has}!`;
+});
