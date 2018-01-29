@@ -11,4 +11,9 @@ Print the value returned from the laugh() function to the console.
 
 // your code goes here
 
-console.log(/* call the laugh function */);
+function laugh() {
+  return "hahahahahahahahahaha!";
+}
+
+console.log(laugh());
+
