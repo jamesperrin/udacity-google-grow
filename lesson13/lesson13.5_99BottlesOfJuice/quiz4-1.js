@@ -27,13 +27,29 @@ Your text editor may try to autocorrect your ellipses ... to the ellipses charac
  *   - The pluralization of the word "bottle" changes from "2 bottles" to "1 bottle" to "0 bottles".
  */
 
-var num = 99;
+var num = 3;
 
+// Version 1
+// while (num > 0) {
+//     // check value of num
+//     // print lyrics using num
+//     // don't forget to check pluralization on the last line!
+//     console.log(`${num} bottle${num === 1 ? '': 's'} of juice on the wall! ${num} bottle${num === 1 ? '': 's'} of juice! Take one down, pass it around... ${num - 1} bottle${(num - 1) === 1 ? '': 's'} of juice on the wall!`);
+//     // decrement num
+//     num -= 1;
+// }
+
+// Version 2
 while (num > 0) {
-    // check value of num
-    // print lyrics using num
-    // don't forget to check pluralization on the last line!
-    console.log(`${num} bottle${num === 1 ? '': 's'} of juice on the wall! ${num} bottle${num === 1 ? '': 's'} of juice! Take one down, pass it around... ${num - 1} bottle${(num - 1) === 1 ? '': 's'} of juice on the wall!`);
-    // decrement num
-    num -= 1;
+  // check value of num
+  let currentBottle = num;
+  let takeOneBottle = num - 1;
+  let currentBottlesText = currentBottle === 1 ? 'bottle' : 'bottles';
+  let takeOnebottlesText = takeOneBottle === 1 ? 'bottle' : 'bottles';
+
+  // print lyrics using num
+  // don't forget to check pluralization on the last line!
+  console.log(`${currentBottle} ${currentBottlesText} of juice on the wall! ${currentBottle} ${currentBottlesText} of juice! Take one down, pass it around... ${takeOneBottle} ${takeOnebottlesText} of juice on the wall!`);
+  // decrement num
+  num -= 1;
 }
