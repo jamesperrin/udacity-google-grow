@@ -28,3 +28,9 @@ Example output for row-seat information: output each row and seat number on a se
  */
 
 // Write your code here
+
+for (let row = 0; row < 26; row++) {
+  for (let seat = 0; seat <= 99; seat++) {
+    console.log(`${row}-${seat}`);
+  }
+}
