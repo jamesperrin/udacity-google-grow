@@ -16,3 +16,8 @@ Don't forget to call the function using the variable name, not the function name
  */
 
 // your code goes here
+var cry = function boohoo(){
+    return "boohoo!";
+};
+
+console.log(cry());
