@@ -12,6 +12,14 @@ Write an anonymous function expression that stores a function in a variable call
  * Programming Quiz: Laugh (5-4)
  */
 
-var laugh = /* finish the function expression */
+var laugh = function (numOfHas) {
+  let has = "";
+
+  for (let i = 1; i <= numOfHas; i++) { 
+    has += "ha";
+  }
+
+  return `${has}!`;
+};
 
   console.log(laugh(10));
