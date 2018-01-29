@@ -21,7 +21,7 @@ This repository is to track my activies for the [Udacity-Google GROW program](ht
 | Beginner Track | 11. Data,Types & Variables                |  [X]   | 2 hr    | 01/24/2018  | 01/29/2018 |
 | Beginner Track | 12. Conditionals                          |  [X]   | 2 hr    | 01/29/2018  | 02/01/2018 |
 | Beginner Track | 13. Loops                                 |  [X]   | 2 hr    | 02/01/2018  | 02/07/2018 |
-| Beginner Track | 14. Functions                             |  [ ]   | 2 hr    | 02/07/2018  | 02/13/2018 |
+| Beginner Track | 14. Functions                             |  [X]   | 2 hr    | 02/07/2018  | 02/13/2018 |
 | Beginner Track | 15. Arrays                                |  [ ]   | 2 hr    | 02/13/2018  | 02/16/2018 |
 | Beginner Track | 16. Objects                               |  [ ]   | 2 hr    | 02/16/2018  | 02/21/2018 |
 | Beginner Track | 17. Rate Intro to JavaScript              |  [ ]   | 2 mins  | 02/21/2018  | 02/26/2018 |
