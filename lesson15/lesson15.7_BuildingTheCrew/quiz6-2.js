@@ -31,3 +31,6 @@ var mercenary = "Jayne";
 var mechanic = "Kaylee";
 
 // your code goes here
+var crew = [captain, second, pilot, companion, mercenary, mechanic];
+
+console.log(crew);
