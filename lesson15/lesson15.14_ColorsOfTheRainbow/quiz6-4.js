@@ -26,3 +26,11 @@ by following these steps:
 var rainbow = ["Red", "Orange", "Blackberry", "Blue"];
 
 // your code goes here
+console.log(rainbow);
+
+var removed = rainbow.splice(2, 1, "Yellow", "Green", "Purple");
+
+// DEBUG
+//console.log(removed);
+
+console.log(rainbow);
