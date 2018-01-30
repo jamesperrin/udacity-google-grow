@@ -1,6 +1,6 @@
 /*
 Directions:
-  Starting with this array of prices, change the prices of the 1 st, 3 rd, and 7 th elements in the array.
+  Starting with this array of prices, change the prices of the 1st, 3rd, and 7th elements in the array.
 
   var prices = [1.23, 48.11, 90.11, 8.50, 9.99, 1.00, 1.10, 67.00];
 
@@ -17,3 +17,8 @@ Afterwards, print out the prices array to the console.
 var prices = [1.23, 48.11, 90.11, 8.50, 9.99, 1.00, 1.10, 67.00];
 
 // your code goes here
+prices[1-1] += 1;
+prices[3-1] += 3;
+prices[7-1] += 7;
+
+console.log(prices);
