@@ -11,3 +11,5 @@ Then, print the udaciFamily to the console using console.log.
  */
 
 // your code goes here
+var udaciFamily = ["Julia", "James", "James"];
+console.log(udaciFamily);
