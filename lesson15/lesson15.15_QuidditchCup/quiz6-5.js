@@ -16,6 +16,10 @@ Create a function called hasEnoughPlayers() that takes the team array as an argu
  */
 
 // your code goes here
+function hasEnoughPlayers(team) {
+  return team.length >= 7;
+}
 
 var team = ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter"];
+
 console.log(hasEnoughPlayers(team));
