@@ -39,3 +39,11 @@ var sister = "River";
 var shepherd = "Book";
 
 // your code goes here
+
+console.log(crew);
+
+crew.push(doctor);
+crew.push(sister);
+crew.push(shepherd);
+
+console.log(crew);
