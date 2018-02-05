@@ -42,4 +42,12 @@ var umbrella = {
         }
     },
     // your code goes here
+    close: function () {
+        if (!umbrella.isOpen) {
+            return "The umbrella is already closed!"
+        } else {
+            umbrella.isOpen = false;
+            return "Julia closed the umbrella!";
+        }
+    }
 };
