@@ -21,3 +21,46 @@ The object should also have 4 methods:
  */
 
 // your code goes here
+var facebookProfile = {
+    name: "James",
+    friends: 10,
+    messages: ["Good morning my peeps!", "Catch you on the down low."],
+    postMessage: function (message) {
+        this.messages.push(message);
+    },
+    deleteMessage: function (index) {
+        if (this.messages.length > 0) {
+            if (typeof this.messages[index] === "undefined") {
+                console.log("Unable to find message to delete.");
+            } else {
+                this.messages.splice(index, 1);
+            }
+        } else {
+            console.log("The facebook profile are messages empty.");
+        }
+    },
+    addFriend: function () {
+        this.friends++;
+    },
+    removeFriend: function () {
+        this.friends--;
+    }
+};
+
+//console.log(facebookProfile);
+// facebookProfile.addFriend();
+// console.log(facebookProfile.frineds)
+// facebookProfile.removeFriend();
+// console.log(facebookProfile.frineds)
+// facebookProfile.removeFriend();
+// console.log(facebookProfile.frineds)
+
+// console.log(facebookProfile.messages);
+// facebookProfile.postMessage("BOOM 1!");
+// console.log(facebookProfile.messages);
+// facebookProfile.postMessage("BOOM 2!");
+// console.log(facebookProfile.messages);
+
+// console.log(facebookProfile.messages);
+// facebookProfile.deleteMessage(5);
+//console.log(facebookProfile.messages);
