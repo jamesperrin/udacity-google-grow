@@ -39,3 +39,14 @@ var numbers = [
 ];
 
 // your code goes here
+for (var row = 0; row < numbers.length; row++) { 
+    for (var col = 0; col < numbers[row].length; col++) { 
+        if (numbers[row][col] % 2 === 0) {
+            numbers[row][col] = "even";
+        } else { 
+            numbers[row][col] = "odd";
+        }
+    }
+}
+
+console.log(numbers);
