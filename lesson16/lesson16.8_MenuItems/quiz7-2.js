@@ -13,3 +13,8 @@ The object should contain properties for the name, price, and ingredients.
  */
 
 // your code goes here
+var breakfast = {
+    name: "The Lumberjack",
+    price: 9.95,
+    ingredients: ["eggs", "sausage", "toast", "hashbrowns", "pancakes"]
+};
