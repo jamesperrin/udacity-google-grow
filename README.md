@@ -23,8 +23,8 @@ This repository is to track my activies for the [Udacity-Google GROW program](ht
 | Beginner Track | 13. Loops                                 |  [X]   | 2 hr    | 02/01/2018  | 02/07/2018 |
 | Beginner Track | 14. Functions                             |  [X]   | 2 hr    | 02/07/2018  | 02/13/2018 |
 | Beginner Track | 15. Arrays                                |  [X]   | 2 hr    | 02/13/2018  | 02/16/2018 |
-| Beginner Track | 16. Objects                               |  [ ]   | 2 hr    | 02/16/2018  | 02/21/2018 |
-| Beginner Track | 17. Rate Intro to JavaScript              |  [ ]   | 2 mins  | 02/21/2018  | 02/26/2018 |
+| Beginner Track | 16. Objects                               |  [X]   | 2 hr    | 02/16/2018  | 02/21/2018 |
+| Beginner Track | 17. Rate Intro to JavaScript              |  [X]   | 2 mins  | 02/21/2018  | 02/26/2018 |
 | Beginner Track | 18. The Basics: the DOM, $, and Selectors |  [ ]   | 2 hr    | 02/26/2018  | 03/01/2018 |
 | Beginner Track | 19. The Tricks: DOM Manipulation          |  [ ]   | 2 hr    | 03/01/2018  | 03/06/2018 |
 | Beginner Track | 20. Event Listeners with jQuery           |  [ ]   | 2 hr    | 03/06/2018  | 03/12/2018 |
