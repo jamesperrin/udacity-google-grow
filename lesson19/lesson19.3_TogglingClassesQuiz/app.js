@@ -8,3 +8,8 @@ You must use jQuery's toggleClass method!
 var article2, article3;
 
 // your code goes here!
+article2 = $('.featured');
+article2.toggleClass('featured');
+
+article3 = article2.next();
+article3.toggleClass('featured');
