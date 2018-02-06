@@ -7,6 +7,17 @@ For more on events, check the instructor notes.
 
 
 $('#input').on('change', function () {
-    var val;
-    val = // Your code goes here!
+    var val, input;
+    input = $('#input');
+    val = input.val();
+    input.next().text(val);
 });
+
+
+// Video Solution
+// $('#input').on('change', function () {
+//     var val;
+//     val = $('#input').val();
+//     var h1 = $('.articles').children('h1');
+//     h1.text(val);
+// });
