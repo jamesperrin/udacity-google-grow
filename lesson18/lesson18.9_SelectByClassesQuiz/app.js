@@ -5,4 +5,6 @@ For this quiz, use a jQuery class selector to grab all of the elements of class 
 // don't change this variable!
 var articleItems;
 
-articleItems = // your code goes here!
+articleItems = $('.article-item');
+
+console.log(articleItems);
