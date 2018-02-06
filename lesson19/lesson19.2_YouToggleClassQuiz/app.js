@@ -5,4 +5,11 @@ For this quiz, use a jQuery class selector and featuredArticle variable to toggl
 // don't change this variable!
 var featuredArticle;
 
-featuredArticle = // your code starts here!
+featuredArticle = $('.article-list').find('.featured');
+featuredArticle.toggleClass('featured');
+
+/*
+featuredArticle = $('.featured');
+featuredArticle.toggleClass('featured');
+
+*/
