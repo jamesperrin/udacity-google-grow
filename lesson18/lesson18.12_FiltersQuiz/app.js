@@ -10,8 +10,25 @@ var articleList, h1, kids, parents;
 
 articleList = $('.article-list');
 
-h1 = // Your code goes here!
+// Select H1 - Cool Articles.
+h1 = articleList.siblings('h1');
 
-    kids = // Your code goes here!
+// Select all children of .article-list
+kids = articleList.children();
 
-    parents = // Your code goes here!
+//kids = articleList.find('*');
+/*
+jQuery Find()
+http://api.jquery.com/find/
+Unlike most of the tree traversal methods, the selector expression is required in a call to.find().
+If we need to retrieve all of the descendant elements, we can pass in the universal selector '*' to accomplish this.
+*/
+
+// Select parents of .article-list
+// div.container div.articles
+parents = articleList.parents();
+
+// Restricts to only DIV elemetns.
+//parents = articleList.parents('div');
+
+console.log(h1, kids, parents);
