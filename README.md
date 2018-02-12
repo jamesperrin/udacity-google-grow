@@ -2,7 +2,7 @@
 
 I was honored in being accepted into the Udacity and Google scholarship program that provides world-class learning opportunities to 50,000 people across the United States. The scholarship program is part of the Grow with Google initiative. I was bless with the Front-End Web Developer learning track.
 
-This repository is to track my activies for the [Udacity-Google GROW program](https://www.udacity.com/grow-with-google) Phase-1. 
+This repository is to track my activies for the [Udacity-Google GROW program](https://www.udacity.com/grow-with-google) Phase-1.
 
 ## Udacity Assignment Tracking
 
@@ -28,5 +28,5 @@ This repository is to track my activies for the [Udacity-Google GROW program](ht
 | Beginner Track | 18. The Basics: the DOM, $, and Selectors |  [X]   | 2 hr    | 02/26/2018  | 03/01/2018 |
 | Beginner Track | 19. The Tricks: DOM Manipulation          |  [X]   | 4 hr    | 03/01/2018  | 03/06/2018 |
 | Beginner Track | 20. Event Listeners with jQuery           |  [X]   | 2 hr    | 03/06/2018  | 03/12/2018 |
-| Beginner Track | 21. Project: Pixel Art Maker              |  [ ]   | 2 hr    | 03/12/2018  | 03/15/2018 |
-| Beginner Track | 22. Challenge Course Wrap Up              |  [ ]   | 1 min  | 03/15/2018  | 03/15/2018 |
+| Beginner Track | 21. Project: Pixel Art Maker              |  [X]   | 2 hr    | 03/12/2018  | 03/15/2018 |
+| Beginner Track | 22. Challenge Course Wrap Up              |  [X]   | 1 min   | 03/15/2018  | 03/15/2018 |
