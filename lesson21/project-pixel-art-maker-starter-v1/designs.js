@@ -3,6 +3,9 @@
  *  https://review.udacity.com/#!/rubrics/641/view
  */
 
+ // Global variables
+const pixelCanvas = document.getElementById('pixelCanvas');
+ 
 /**
  * @name detectLeftButton
  * @description Detects if only the left mouse button is pressed in a mouse event
@@ -17,24 +20,29 @@
 function detectLeftButton(evt) {
     evt = evt || window.event;
     if ("buttons" in evt) {
-        return evt.buttons == 1;
+        return evt.buttons === 1;
     }
-    let button = evt.which || evt.button;
-    return button == 1;
+    const button = evt.which || evt.button;
+    return button === 1;
 }
 
 
 /**
  * @name changeBackgroundColor
  * @description Function which changes the background color of a target element
- * @param {*} e - element event
+ * @param {*} element - HTML target element
+ * @param {string} color - Optional, background color
  */
-function changeBackgroundColor(e) {
+function changeBackgroundColor(element, color) {
     // Select color input
-    let color = document.getElementById('colorPicker').value;
+    let colorPicker = document.getElementById('colorPicker').value;
+    
+    if (color) {
+        colorPicker = color;
+    }
 
     // Change target element backgournd color
-    e.target.style.backgroundColor = color;
+    element.style.backgroundColor = colorPicker;
 }
 
 
@@ -47,9 +55,9 @@ function changeBackgroundColor(e) {
  */
 function makeGrid(height, width) {
     // Your code goes here!
+    const table = document.getElementById('pixelCanvas');
     let tr = '';
     let td = '';
-    let table = document.getElementById('pixelCanvas');
 
     while (table.firstChild) {
         table.removeChild(table.firstChild);
@@ -58,7 +66,7 @@ function makeGrid(height, width) {
     // Rows
     for (let row = 0; row < height; row++) {
         tr = document.createElement('tr');
-    // Columns
+        // Columns
         for (let col = 0; col < width; col++) {
             td = document.createElement('td');
             tr.appendChild(td);
@@ -70,19 +78,18 @@ function makeGrid(height, width) {
 
 
 /**
- * @description Detects the Input button click event
- * @listens click event
- * @see
- * https://davidwalsh.name/event-delegate *
+ * @description Detects the HTML form submit event
+ * @listens form submit event
+ * 
  */
-document.querySelector('input[type=submit]').addEventListener("click", function (e) {
+document.querySelector('form').addEventListener('submit', function (e) {
     e.preventDefault();
 
     // Select size input height
-    let height = document.getElementById('inputHeight').value;
+    const height = document.getElementById('inputHeight').value;
 
     // Select size input width
-    let width = document.getElementById('inputWeight').value;
+    const width = document.getElementById('inputWeight').value;
 
     // When size is submitted by the user, call makeGrid()
     makeGrid(height, width);
@@ -94,23 +101,35 @@ document.querySelector('input[type=submit]').addEventListener("click", function 
  * 
  * @listens click event
  * @see
- * https://davidwalsh.name/event-delegate *
+ * https://davidwalsh.name/event-delegate
  */
-document.getElementById('pixelCanvas').addEventListener('click', function (e) {
+pixelCanvas.addEventListener('click', function (e) {
     if (e.target && e.target.nodeName === 'TD') {
-        changeBackgroundColor(e);
+        changeBackgroundColor(e.target);
     }
 });
 
+/**
+ * @description Pixel Canvas click event to change color
+ * 
+ * @listens click event
+ * @see
+ * https://davidwalsh.name/event-delegate
+ */
+pixelCanvas.addEventListener('dblclick', function (e) {
+    if (e.target && e.target.nodeName === 'TD') {
+        changeBackgroundColor(e.target, '#ffffff');
+    }
+});
 
 /**
  * @description Pixel Canvas mouseover event to change background color
  * @listens mouseover event
  */
-document.getElementById('pixelCanvas').addEventListener('mouseover', function (e) {
+pixelCanvas.addEventListener('mouseover', function (e) {
     if (detectLeftButton(e)) {
         if (e.target && e.target.nodeName === 'TD') {
-            changeBackgroundColor(e);
+            changeBackgroundColor(e.target);
         }
     }
 });
