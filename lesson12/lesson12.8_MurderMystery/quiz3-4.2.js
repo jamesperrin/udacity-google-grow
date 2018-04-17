@@ -74,25 +74,16 @@ var solved = false;
 
 if (room === 'ballroom') {
     weapon = 'poison';
-    if (suspect === 'Mr. Kalehoff') {
-        solved = true;
-    }
-
+    solved = suspect === 'Mr. Kalehoff';
 } else if (room === 'gallery') {
     weapon = 'trophy';
-    if (suspect === 'Ms. Van Cleve') {
-        solved = true;
-    }
+    solved = suspect === 'Ms. Van Cleve';
 } else if (room === 'billiards room') {
     weapon = 'pool stick';
-    if (suspect === 'Mrs. Sparr') {
-        solved = true;
-    }
+    solved = suspect === 'Mrs. Sparr';
 } else {
     weapon = 'knife';
-    if (suspect === 'Mr. Parkes') {
-        solved = true;
-    }
+    solved = suspect === 'Mr. Parkes';
 }
 
 if (solved) {
